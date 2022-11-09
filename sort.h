@@ -31,6 +31,10 @@ typedef struct listint_s
 /* helping inter change integers */
 void interchange(int *a, int *b);
 
+/* The printing prototypes */
+void print_array(const int *array, size_t size);
+void print_list(const listint_t *list);
+
 /* Regular prototype */
 void bubble_sort(int *array, size_t size);
 
