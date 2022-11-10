@@ -8,10 +8,11 @@
  * Return: Nothing
  */
 
-void interchange(int *a,int *b)
+void interchange(int *a, int *b)
 {
 	int tmp;
-	tmp = *a; 
+
+	tmp = *a;
 	*a = *b;
 	*b = tmp;
 }
