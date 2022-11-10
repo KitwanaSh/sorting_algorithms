@@ -1,13 +1,13 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swaps two integers in an array.
+ * interchange - Change up two integers in an array.
  * @a: The first integer.
  * @b: The second integer.
  *
  * Return: Nothing
  */
-void swap_ints(int *a, int *b)
+void interchange(int *a, int *b)
 {
 	int tmp;
 
@@ -41,7 +41,7 @@ void selection_sort(int *array, size_t size)
 
 		if ((array + i) != el)
 		{
-			swap_ints(array + i, el);
+			interchange(array + i, el);
 			print_array(array, size);
 		}
 	}

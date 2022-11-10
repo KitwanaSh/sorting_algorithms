@@ -1,11 +1,13 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swap two integers in an array.
+ * interchange - Change up two integers in an array.
  * @a: The first integer to swap.
  * @b: The second integer to swap.
+ *
+ * Return: Nothing
  */
-void swap_ints(int *a, int *b)
+void interchange(int *a, int *b)
 {
 	int tmp;
 
